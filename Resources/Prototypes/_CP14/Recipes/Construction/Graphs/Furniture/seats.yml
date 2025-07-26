@@ -16,10 +16,24 @@
           - material: CP14BirchWoodenPlanks
             amount: 2
             doAfter: 2
+	- to: CP14StoolWooden
+	  steps:
+	  - material: CP14WoodenPlanks
+	    amount: 2
+	    doAfter: 1
+	- to: CP14StoolBirch
+	  steps:
+	  - material: CP14BirchWoodenPlanks
+	    amount: 2
+	    doAfter: 1
     - node: CP14ChairWooden
       entity: CP14ChairWooden
     - node: CP14ChairWoodenBirch
       entity: CP14ChairWoodenBirch
+    - node: CP14StoolWooden
+      entity: CP14StoolWooden
+    - node: CP14StoolBirch
+      entity: CP14StoolBirch
 
 - type: constructionGraph
   id: CP14BenchWood
